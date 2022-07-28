@@ -24,7 +24,7 @@ async function setupNodeEvents(
 
 export default defineConfig({
   e2e: {
-    baseUrl: 'https://www.student.com/',
+    baseUrl: 'https://www.student.com',
     supportFile: 'cypress/support/e2e.ts',
     specPattern: '**/*.feature',
     screenshotOnRunFailure: true,
